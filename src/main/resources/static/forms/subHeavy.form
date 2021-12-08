@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Recibo de dinero por ingreso a subasta de:\n## Heavy Suburvan\n### Monto mínimo: 58.000\n## Características:\n* Máximo 7 personas\n* 4 x 4",
+      "type": "text",
+      "id": "Field_0wsl2nn"
+    },
+    {
+      "label": "Monto de la oferta",
+      "type": "textfield",
+      "id": "Field_0sfyu0i",
+      "key": "montoHeavySub",
+      "description": "Ingrese el monto con el que desea ofertar",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1g4hsdk"
+}

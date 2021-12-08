@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Recibo de dinero por ingreso a subasta de:\n\n## Suburvan mini\n\n### Monto mínimo: 38.000\n\n## Características:\n\n* Máximo 5 personas\n* 4 x 2",
+      "type": "text",
+      "id": "Field_0bxc21r"
+    },
+    {
+      "label": "Monto de la oferta",
+      "type": "textfield",
+      "id": "Field_1aep8go",
+      "key": "montoSubMini",
+      "description": "Ingrese el monto con el que desea ofertar",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1lsujqn"
+}

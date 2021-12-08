@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Cancelación vehículo monoplaza\n## Monto factura: $10.000",
+      "type": "text",
+      "id": "Field_0lvk0n1"
+    },
+    {
+      "label": "Monto cancelado",
+      "type": "textfield",
+      "id": "Field_0g4xeym",
+      "key": "montoMono",
+      "validate": {
+        "required": true
+      },
+      "description": "Ingrese el monto que va a cancelar"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1vxkoum"
+}

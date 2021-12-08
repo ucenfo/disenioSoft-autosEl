@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Cancelación vehículo sedan\n\n## Monto factura: $25.000",
+      "type": "text",
+      "id": "Field_05es7i0"
+    },
+    {
+      "label": "Monto cancelado",
+      "type": "textfield",
+      "id": "Field_0o2inlb",
+      "key": "montoSedan",
+      "validate": {
+        "required": true
+      },
+      "description": "Ingrese el monto que va a cancelar"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0guyjap"
+}

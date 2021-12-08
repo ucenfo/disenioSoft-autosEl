@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Solicitud",
+      "type": "text",
+      "id": "Field_107zrs6"
+    },
+    {
+      "label": "Cédula",
+      "type": "textfield",
+      "id": "Field_1nhqj4n",
+      "key": "cedula",
+      "validate": {
+        "required": true
+      },
+      "description": "Ingrese su cédula"
+    },
+    {
+      "label": "Nombre",
+      "type": "textfield",
+      "id": "Field_0tp3gto",
+      "key": "name",
+      "description": "Ingrese su nombre",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Primer apellido",
+      "type": "textfield",
+      "id": "Field_0eik4bh",
+      "key": "lastName1",
+      "validate": {
+        "required": true
+      },
+      "description": "Ingrese su primer apellido"
+    },
+    {
+      "label": "Segundo apellido",
+      "type": "textfield",
+      "id": "Field_026fqm3",
+      "key": "lastName2",
+      "description": "Ingrese su segundo apellido",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Teléfono",
+      "type": "textfield",
+      "id": "Field_13bqr6k",
+      "key": "phone",
+      "description": "Ingrese su teléfono formato ####-####",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Correo electrónico",
+      "type": "textfield",
+      "id": "Field_0hpkwpd",
+      "key": "mail",
+      "description": "Ingrese su correo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Monoplaza",
+          "value": "monoPlaza"
+        },
+        {
+          "label": "Sedan",
+          "value": "sedan"
+        },
+        {
+          "label": "Suburvan mini",
+          "value": "subMini"
+        },
+        {
+          "label": "Suburban plus",
+          "value": "subPlus"
+        },
+        {
+          "label": "Heavy Suburban",
+          "value": "heavySub"
+        }
+      ],
+      "label": "Tipo de vehículo",
+      "type": "select",
+      "id": "Field_07teqhz",
+      "key": "tipoVehiculo",
+      "description": "Elija un vehículo",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_solicitud"
+}

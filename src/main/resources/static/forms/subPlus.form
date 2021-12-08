@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Recibo de dinero por ingreso a subasta de:\n\n## Suburvan plus\n\n### Monto mínimo: 45.000\n\n## Características:\n\n* Máximo 7 personas\n* 4 x 2",
+      "type": "text",
+      "id": "Field_1bwjmcd"
+    },
+    {
+      "label": "Monto de la oferta",
+      "type": "textfield",
+      "id": "Field_0398724",
+      "key": "montoSubPlus",
+      "description": "Ingrese el monto con el que desea ofertar",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0meuqkq"
+}
